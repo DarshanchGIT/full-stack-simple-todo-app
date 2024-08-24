@@ -3,10 +3,9 @@ const mongoose = require("mongoose");
 
 //mongo instance connection
 // Connect to MongoDB
+const dbUrl = "your-mongo-instance-url";
 mongoose
-  .connect(
-    "mongodb+srv://admin:W6PyEwrklahbgRzD@cluster0.lhcugcv.mongodb.net/todos"
-  )
+  .connect(url)
   // if I want to specify a databse just add it at the last
   // for instanace => mongodb+srv://admin:W6PyEwrklahbgRzD@cluster0.lhcugcv.mongodb.net/database_name
   .then(() => console.log("Database connected successfully"))
