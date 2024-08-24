@@ -1,0 +1,21 @@
+ Step 01:  Start by creating a README file.
+   - You can use any online markdown editor for this.
+
+ Step 02:  Creating the backend first is generally considered good practice.
+   - Create a folder named `BACKEND`.
+   - Initialize a Node.js project.
+
+ Step 03:  Review Zod if needed.
+   - Create a `types.js` file for all expected input from the request body.
+
+ Step 04:  Create a database schema to store, fetch, and update data in the database.
+
+ Step 05:  Create routes to display (`GET /todos`), create a todo (`POST /todos`), and update the status of todos (`PUT /completed`).
+
+ Step 06:  Create a frontend in the root folder using `npm create vite@latest`.
+
+ Step 07:  Fetch data from `"https://localhost:(whatever port you set)"` and send it as a prop to the component that will display the data.
+
+ Step 08:  Create a `CreateTodo` component that allows you to create a todo, making an API call to the backend to create an entry in the database.
+
+ Step 09:  Finally, render `<CreateTodo />` and `<Todos />` in `App.jsx`.

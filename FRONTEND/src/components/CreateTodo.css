@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.input-title-divs {
+  height: 5vh;
+  width: 12vw;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  /* border: transparent; */
+}
+.input-description-divs {
+  height: 5vh;
+  width: 23vw;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  /* border: transparent; */
+}
+
+.form-btn {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  height: 5vh;
+  width: 6.5vw;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 8px;
+  border: transparent;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
